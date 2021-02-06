@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import logo from '../../images/logo.svg';
+import logo from '../../images/logo-dark.svg';
 import facebook from '../../images/icon-facebook.svg';
 import youtube from '../../images/icon-youtube.svg';
 import pintrest from '../../images/icon-pinterest.svg';
