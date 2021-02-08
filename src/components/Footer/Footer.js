@@ -13,13 +13,13 @@ function Footer() {
         <div className="container">
           <div className="footer__content">
             <div className="footer__content--left">
-              <img src={logo} alt=""/>
+              <img src={logo} alt="logo-white"/>
               <ul>
-                <li><a href="#"><img src={facebook} alt=""/></a></li>
-                <li><a href="#"><img src={youtube} alt=""/></a></li>
-                <li><a href="#"><img src={pintrest} alt=""/></a></li>
-                <li><a href="#"><img src={instagram} alt=""/></a></li>
-                <li><a href="#"><img src={twitter} alt=""/></a></li>
+                <li><a href="/"><img src={facebook} alt=""/></a></li>
+                <li><a href="/"><img src={youtube} alt=""/></a></li>
+                <li><a href="/"><img src={pintrest} alt=""/></a></li> 
+                <li><a href="/"><img src={instagram} alt=""/></a></li>
+                <li><a href="/"><img src={twitter} alt=""/></a></li>
               </ul>
             </div>
             <div className="footer__content--center">

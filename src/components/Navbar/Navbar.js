@@ -9,6 +9,7 @@ function Navbar() {
 
   const showMenu = (e) => {
     setOpen(!open);
+    e.target.src= closeIcon ;
   };
 
   const closeMenu = () => {
@@ -36,7 +37,7 @@ function Navbar() {
         )}
         <div className="container">
           <a href="/" className="navbar__logo">
-            <img src={logo} alt="logo" srcset="" />
+            <img src={logo} alt="logo"/>
           </a>
 
           <ul className="navbar__links">
@@ -46,22 +47,22 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a href="#about" className="navbar__link">
+              <a href="/" className="navbar__link">
                 About
               </a>
             </li>
             <li>
-              <a href="#blog" className="navbar__link">
+              <a href="/" className="navbar__link">
                 Blog
               </a>
             </li>
             <li>
-              <a href="#contact" className="navbar__link">
+              <a href="/" className="navbar__link">
                 Contact
               </a>
             </li>
             <li>
-              <a href="#career" className="navbar__link">
+              <a href="/" className="navbar__link">
                 Careers
               </a>
             </li>
@@ -69,7 +70,7 @@ function Navbar() {
           <button className="btn">Request invite</button>
           <div className="hamburger">
             <img
-              src={open ? closeIcon : hamburger}
+              src={hamburger}
               onClick={showMenu}
               alt=""
               className="humbuger"
